@@ -1,0 +1,246 @@
+
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-part{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.banner-content{
+    padding: 170px 120px;
+    text-align: right;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-left: 790px;
+    padding-bottom: 25px;
+}
+.banner-deseription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343; 
+    margin-bottom: 30px;
+    padding-left: 690px;
+    line-height: 26px;
+    
+}
+.banner-content a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 17px; 
+    background: #F15B22;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    transition: all linear 0.4s;
+   border-radius: 5px;
+ 
+}
+/* My failures of previous year styles */
+.failures{ 
+    margin-top: 130px;
+}
+img{
+    width: 569px;
+  height: 723.3px;
+}
+.failures-part{
+    display: flex;
+    gap: 64px;
+    padding: 50px 140px;
+}
+.failures-items{
+    padding-top: 190px;
+    
+}
+.failures-title{
+    font-weight: 700;
+   font-size: 30px;
+   line-height: 37px;
+   color: #151414;
+   margin-bottom: 20px;
+   padding-right: 150px;
+}
+.failures-deseription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343; 
+    margin-bottom: 25px;
+    line-height: 26px;
+    padding-right: 110px;
+ 
+}
+.failures-items {
+    margin: 20px 0px 12px;
+
+}
+.failures-items  a {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343; 
+    margin-bottom: 10px;
+    transition: all linear 0.4s;
+    text-decoration: none;
+}
+.failures-items span i{
+    color: #31D490;
+    margin-top: 5px;
+    margin-right: 9px;
+}
+
+/* My Plans styles */
+.my-plans{
+    margin-top: 130px;
+}
+.my-plans-content{
+    display: flex;
+    gap: 84px;
+    padding: 50px 270px;
+    
+}
+.plans-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #151414;
+    text-align: center;
+}
+.my-plans-itmes{
+    text-align: center;
+    
+}
+.my-plans-itmes img{
+    width: 92.96px;
+    height: 92.96px;
+}
+.my-plans-itmes h4{
+    font-weight: 700px;
+    font-size: 21px;
+    line-height: 35px;
+    color:#151414 ;
+}
+.my-plans-itmes p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343; 
+    margin-bottom: 10px;
+}
+/* Awlays keep a positive mindset */
+.gradient{
+    margin-top: 90px;
+}
+.gradient-content{
+   margin: 50px 100px;
+}
+.gradient-img{
+    
+}
+.gradient-img img{
+    width: 1140px;
+   height: 300px;
+   position: absolute;
+}
+.color-overlay{
+    background-image: url(../images/gradient3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+    width: 1140px;
+    height: 300px;
+
+}
+.color-overlay h2{
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    color:#ffffff ;
+    margin-bottom: 20px;
+    padding-top: 95px;
+    padding-left: 35px;
+    padding-right: 735px;
+}
+.color-overlay a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 17px; 
+    background: #ffffff;
+    color: #F15B22;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    transition: all linear 0.4s;
+   border-radius: 5px;
+   margin-left: 35px;
+}
+/* Future styles */
+.future{
+    margin-top: 130px;
+    background-color:  #151414;
+}
+.future-content{
+    display: flex;
+    gap: 56px;
+}
+.future-items{
+    padding-left: 150px;
+    margin-bottom: 80px;
+}
+.future-items h2{
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    color:#ffffff ;
+    margin-bottom: 20px;
+    padding-top: 95px;
+}
+.future-items p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff; 
+    margin-bottom: 25px;
+    line-height: 26px;
+    padding-right: 350px;
+}
+.future-items img{
+    width: 47px;
+    height: 46px;
+    margin-left: 10px;
+}
+.subscribe{
+    padding-right: 150px;
+}
+.subscribe h2{
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    color:#ffffff ;
+    margin-bottom: 20px;
+    padding-top: 95px;
+}
+.subscribe input[type="email"]{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+    background: #444343;
+    color: #ffffff;
+}
+.btn-primary{
+    display: inline-block;
+    padding: 12px 17px; 
+    background: #ffffff;
+    color: #F15B22;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    transition: all linear 0.4s;
+   border-radius: 5px;
+}
